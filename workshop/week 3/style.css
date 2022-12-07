@@ -5,7 +5,7 @@ box-sizing: border-box;
 
     color:rgb(14, 13, 11);
     
-    font-size: 14px;
+    font-size: 16px;
 }
 body{
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -16,7 +16,32 @@ header{
 font-family: Arial, Helvetica, sans-serif;
 color: black;
 }
+#header{
+
+    border: 1px solid rgb(182, 42, 42);
+    
+    font-size: 100px;
+    
+    }
+.navigator li,a{
+    list-style-type: none;
+    text-decoration: none;
+    color: darkblue;
+}
+
 ol{
-    font-size: 6px;
+    font-size: 9px;
     color: bisque;
 }
+.container{
+
+    margin: 0px;
+    
+    width: 1200px;
+    
+    }
+    Input[type=“text”] {
+
+        font-size: 99px;
+        
+            line-height: 1.2;}
