@@ -45,3 +45,8 @@ ol{
         font-size: 10px;
         
             line-height: 1.2;}
+
+    img{
+    display:block;
+    margin:10px;
+    }
