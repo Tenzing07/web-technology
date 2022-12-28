@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .content-wrapper {
+    width: 50%;
+    background-color: rgb(94, 105, 87);
+    padding: 5%;
+    color: #ffffff;
+  }
+  
+  h1 {
+    font-size: 50px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    font-family: "Unbounded", cursive;
+  }
+  
+  h2 {
+    margin-bottom: 50px;
+    font-weight: 200;
+  }
+  
+  figure {
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  figure img{
+    width: 100%;
+  }
+  
+  .button {
+    margin-top: 20px;
+  }
+  
+  .button a {
+    display: inline-block;
+    padding: 10px 50px;
+    background: rgb(191, 19, 76);
+    border-radius: 30px;
+    text-decoration: none;
+    color: rgb(244, 242, 242);
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 800;
+    transition: all 0.5s ease;
+  }
+  
+  .button a:hover {
+    background: rgb(186, 17, 17);
+    color: rgb(60, 39, 182);
+  }
+  
+
+  
+  @media screen and (max-width: 1024px) {
+    .button a {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .content-wrapper {
+      padding-bottom: 50px;
+    }
+  
+    .content-wrapper,
+    figure {
+      width: 100%;
+    }
+  
+    figure {
+      height: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 420px) {
+    .button a {
+      text-align: center;
+    }
+  }
+  /*  */
