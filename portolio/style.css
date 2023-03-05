@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+font-family: 'Quicksand', sans-serif;
+text-decoration: none;
+list-style: none;
+scroll-behavior: smooth ;
+scroll-padding-top: 2rem;
+}
+.bgimage {
+  height:100vh;
+  background: url('cat.webp');
+  background-size:cover;
+  position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+  font-size: 4.5rem;
+}
+.hero_desc {
+  font-size: 2rem;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}

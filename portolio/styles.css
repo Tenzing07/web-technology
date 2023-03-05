@@ -1,0 +1,36 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{background-color: red;
+          width: 15vw;
+          font-family: 'Quicksand', sans-serif;
+        height: 100vh;}
+.sidebar nav{
+           padding: 30px;
+}
+.sidebar nav li{ list-style: none;
+                 font-size: 25px;
+                padding: 33px;}
+.main{
+    background-color: yellow;
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    background-color:green;
+    height: 78vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+}
+.devpic img{
+    
+    height: 78vh;
+    justify-content: space-around;
+}

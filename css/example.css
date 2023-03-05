@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root{
+  --main-color:#e38528;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  outline: none;
+  text-decoration: none;
+  text-transform:capitalize;
+  transition: all .2s linear;
+  line-height: 1.5 ;
+
+}
+
+html{
+  font-size: 60%;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+body{
+  background:#fcf2e8;
+  padding-left: 30rem;;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #222;
+  align-items: canter;
+  justify-content: space-between;
+  z-index: 1000;
+  flex-flow: column;
+  padding:8rem 2rem;
+  width:30rem;
+  text-align: center;
+}
+
+header.logo{
+  text-transform:uppercase;
+  color:#fff;
+  font-size: 500px;
+  font: weight 2000px;
+  padding-bottom: 50px;
+}
+
+header .logo span{
+  text-transform:uppercase;
+  color:var(--main-color);
+}
+
+header .navbar a{
+  display: block;
+  font-size: 2rem;
+  color:#fff;
+  margin: 2rem o;
+}
+
+header .navbar a:hover{
+  letter-spacing: 2rem;
+  color: var(--main-color);
+}
+
+header .follow a{
+  font-size: 2.5rem;
+  color: #fff;
+  margin: 0 .7rem;
+}
+
+header .follow a:hover{
+  color: var(--main-color);
+}
+
+#menub-bars{
+  position:fixed;
+  top:1 rem;
+  right:1rem;
+  z-index: 10000;
+  background-color: var(--main-color);
+  color: #fff;
+  border-radius: .5rem;
+  padding: 1.5rem;
+  font-size: 3rem;
+  cursor:pointer;
+  display: none;
+}
+
+
+
+@Media(max-width:991px){
+
+  html{
+    font: size 55%;
+  }
+
+  body{
+    padding: 0%;
+  }
+ #menu-bars{
+  display: initial;
+ }
+   
+ header{
+  left:-120%;
+ }
+
+ header.active{
+  left:-120%;
+   
+ }
+}
